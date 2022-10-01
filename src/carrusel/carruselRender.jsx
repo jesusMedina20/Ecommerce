@@ -13,7 +13,6 @@ function CarruselRender({ products }) {
 
   return (
     <div className="container-carrusel">
-      {imagenActual}
       <button className="boton1" onClick={anteriorImagen}></button>
       <img
         className="imagenPrincipal"
