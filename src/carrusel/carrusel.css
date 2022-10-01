@@ -1,0 +1,54 @@
+button a:hover {
+  background: #fff;
+  color: #000;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.6em 1.5em;
+  color: #fff;
+  margin-right: 0;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-size: 1.12em;
+}
+.boton1 {
+  position: absolute;
+  height: 100%;
+  left: 0;
+}
+.boton2 {
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+.container-carrusel {
+  font-size: 16px;
+  height: 70vh;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+
+.imagenPrincipal {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 6.25em;
+}
+.nombre {
+  position: absolute;
+  bottom: 20px;
+
+  font-weight: 250;
+  font-size: 2.12em;
+  padding: 30px;
+}
